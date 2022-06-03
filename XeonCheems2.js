@@ -5142,7 +5142,7 @@ reply(`Successfully send Virus To The Number\n\nPlease Make Sure The Number Is V
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
                     	XeonBotInc.sendMessage(`917872792882@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
-reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)}
+reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
 
